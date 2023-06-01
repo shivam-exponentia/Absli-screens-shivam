@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager View</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-expand " id="navId">
+        
+    </div>
+
+    <div class="container d-flex profile">
+        <div class="initials">
+            <div class="opaqueWhiteCircle"></div>
+            <div class="blackCircle">
+                <p>NP</p>
+            </div>
+        </div>
+
+        <div class="detail white mt-2">
+            <h4>Chandrashekhara D.</h4>
+            <p class="mBody4 mb-0">Zonal Rank: 5</p>
+        </div>
+
+        <div class="form-check form-switch ms-auto mt-2 me-2">
+            <input class="form-check-input float-end" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            <label class="form-check-label white" for="flexSwitchCheckDefault">Manager</label>
+        </div>
+
+    </div>
+
+    <div class="whiteCard managerWCard">
+
+        <div class="d-flex justify-content-around">
+            <div class="container title">
+                <h1 class="mb-0">Team Performance</h1>
+                <p class="mBody4">As on </p>
+            </div>
+
+            <div class="dropdown me-2">
+                <button class="btn dropdown-toggle timeDropDown" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    MTD
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">MTD</a></li>
+                    <li><a class="dropdown-item" href="#">YTD</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle timeDropDown" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Login
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Login</a></li>
+                    <li><a class="dropdown-item" href="#">Insurance</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="donutChart mt40">
+
+        </div>
+        
+        <div class="wrapper mt40">
+            <div class="row">
+                <div class="col-5">
+                    <div class="d-flex">
+                        <img src="assets/FrameTrophy.png" class="mR12 wH36" alt="Achievement Icon">
+                        <div class="align-items-start">
+                            <p class="mBody3 mb-0 o80">WFYP Achieved</p>
+                            <h2 class="mb-0">95.1 L</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1">
+                    <div class="verticalSeperator"></div>
+                </div>
+
+                <div class="col-6">
+                    <div class="d-flex">
+                        <img src="assets/FrameVictory.png" class="mR12 wH36" alt="Achievement Icon">
+                        <div class="align-items-start">
+                            <p class="mBody3 mb-0 o80">WFYP Target</p>
+                            <h2 class="mb-0">95.1 L</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="policyContract mb60">
+            <div class="d-flex align-items-middle ms-3">
+                <img src="assets/PolicyContract.png" class="wH24 me-2" alt="Policy Contract">
+                <div class="d-flex align-items-center">
+                    <p class="mBody3 o80 mb-0">8 Number of Policies (NOPs)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="roList">
+            <h2>List of RO’s</h2>
+            <p class="mBody2 mb40">Highlights are Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo.</p>
+            <div class="hTable detailTable">
+                <div class="sliderTable">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">TGT in ₹</th>
+                        <th scope="col">FTD</th>
+                        <th scope="col">WFYP</th>
+                        <th scope="col">ACH%</th>
+                        <th scope="col"><p class="mb-0">Tentative</p>
+                        <p class="mb-0">Incentive</p></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Manoharsingh Gaikwad</td>
+                        <td>4 L</td>
+                        <td>1.4 L</td>
+                        <td>1.4 L</td>
+                        <td>35%</td>
+                        <td><div class="d-flex">
+                            <p class="mb-0 me-2">3 K</p>
+                            <img src="assets/redOutlink.png" class="wH16" alt="link">
+                        </div></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
